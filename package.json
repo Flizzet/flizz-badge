@@ -2,17 +2,18 @@
   "name": "flizz-badge",
   "main": "./lib/flizz-badge",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Places a FlizzX badge on your Atom workspace, exclusively for Flizzet/FlizzX members.",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "flizz-badge:toggle"
   },
-  "repository": "https://github.com/atom/flizz-badge",
+  "repository": "https://github.com/Flizzet/flizz-badge",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "etch-atom": "^0.1.4",
+    "jquery": "^2.0.0"
   }
 }

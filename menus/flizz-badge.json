@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle flizz-badge",
+        "label": "Toggle FlizzX Badge",
         "command": "flizz-badge:toggle"
       }
     ]
@@ -15,7 +15,7 @@
           "label": "flizz-badge",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Toggle FlizzX Badge",
               "command": "flizz-badge:toggle"
             }
           ]

@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "flizz-badge:toggle"
+    "cmd-ctrl-alt-f": "flizz-badge:toggle"
   }
 }

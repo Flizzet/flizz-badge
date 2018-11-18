@@ -5,4 +5,31 @@
 @import "ui-variables";
 
 .flizz-badge {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	top: auto;
+	left: auto;
+	z-index: 999;
+	width: 7.5%;
+	height: auto;
+	animation-name: fadeinright;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0, 0.6, 0.2, 1.3);
+	transform: translateX(500%);
+}
+
+.ui-draggable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+@keyframes fadeinright {
+	0% {
+		transform: translateX(500%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
 }
