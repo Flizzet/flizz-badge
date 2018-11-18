@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle flizz-badge",
+        "command": "flizz-badge:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "flizz-badge",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "flizz-badge:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
