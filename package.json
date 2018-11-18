@@ -1,7 +1,7 @@
 {
   "name": "flizz-badge",
   "main": "./lib/flizz-badge",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Places a FlizzX badge on your Atom workspace, exclusively for Flizzet/FlizzX members.",
   "keywords": [],
   "activationCommands": {
